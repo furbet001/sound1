@@ -25,7 +25,7 @@ public class tissue : MonoBehaviour
         else 
         {
             Life.playerLive--; 
-
+            
        
             Debug.Log("Incorrect");
         }

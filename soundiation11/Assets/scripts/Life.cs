@@ -7,18 +7,17 @@ public class Life : MonoBehaviour
 {
 
     public Text liveText;
-    public static int playerLive = 2;
+    public static int playerLive;
     public GameObject LoseImage;
-     
-    int playerIdle = 0;
+    
+   
 
 
 
     public void Awake()
     {
         liveText = GetComponent<Text>();
-
-
+        playerLive= 2;
 
     }
 
@@ -31,11 +30,20 @@ public class Life : MonoBehaviour
         if (playerLive == 0)
         {
             LoseImage.SetActive(true);
-           // playerIdle = playerLive;
-
+         
         }
 
         }
+
+    void resetScore()
+    {
+
+
+
+
+    }
+
+
     }
 
 
