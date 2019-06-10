@@ -1221,7 +1221,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioList:
   - {fileID: 294413616717651117, guid: cc2d7af63c91c9e4fb6512174f1ccf29, type: 3}
-  - {fileID: 3585348024398888609, guid: bdff75b392b738b42b222bbcd7662269, type: 3}
+  - {fileID: 4067277633888503622, guid: 7c7750ac6add08344b0962a40a5c4c2a, type: 3}
   randomSound: 0
 --- !u!1 &922271584
 GameObject:
@@ -2199,7 +2199,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1645174790}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 92e1d97f4caa87b4da7c4e19bbdd3a7f, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: c23c27405542c604f9d8f45865ac7c0c, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}

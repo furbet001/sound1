@@ -7,18 +7,16 @@ public class Life : MonoBehaviour
 {
 
     public Text liveText;
-    public static int playerLive;
+    public static int playerLive=0;
     public GameObject LoseImage;
     
    
 
 
 
-    public void Awake()
+    public void Start()
     {
         liveText = GetComponent<Text>();
-        playerLive= 2;
-
     }
 
 
@@ -27,15 +25,17 @@ public class Life : MonoBehaviour
 
         liveText.text = "Live: " + playerLive;
 
+        if (playerLive == -1)
+        {
+            LoseImage.SetActive(true);       
+        }
         if (playerLive == 0)
         {
-            LoseImage.SetActive(true);
-         
+            LoseImage.SetActive(false);
+        }
         }
 
-        }
-
-    void resetScore()
+    void LifeAdd()
     {
 
 

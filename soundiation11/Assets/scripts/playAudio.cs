@@ -10,13 +10,17 @@ public class playAudio : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        aPlay = GetComponent<AudioSource>();
+        aPlay.GetComponent<AudioSource>(); 
 
     }
 
-    public void PlayAudio()
+    void Update()
     {
-        aPlay.Play();
+        if (aPlay == null)
+        {
+            aPlay.Play();
+            Debug.Log(aPlay); 
+        }
 
 
       
